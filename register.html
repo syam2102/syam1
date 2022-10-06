@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home</title>
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous">
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-u1OknCvxWvY5kfmNBILK2hRnQC3Pr17a+RTT6rIHI7NnikvbZlHgTPOOmMi466C8" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css">
+
+    <link href="Home.css" rel="stylesheet">
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg myNav">
+        <div class="container-fluid">
+
+          <a class="navbar-brand" href="#"><i class="fa-sharp fa-solid fa-s"></i></a>
+          
+            <ul class="navbar-nav">
+              <li class="nav-item">
+                <a class="nav-link active" href="Home.html">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="Login.html">Login</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="register.html">
+                  register
+                </a>
+              </li>
+            </ul>
+        </div>    
+    </nav>
+        <div class="register">
+        <h1>Welcome To My Register Page</h1>
+    </div>
+    <div class="container" >
+      <div class="row col-md-6 col-md-offset-6">
+        <div class="panel penel-primary">
+          <div class="panel-heading text-center">
+            <h1>Registration Form</h1>
+          </div>
+          <div class="panel-body">
+            <form>
+              <div class="form-group">
+                <lebelfor="firstName">First Name</lebel>
+                <input type="text" class="form-control" id="firstName">
+              </div>
+              <div class="form-group">
+                <lebelfor="lastName">Last Name</lebel>
+                <input type="text" class="form-control" id="lastName">
+              </div>
+              <div class="form-group">
+                <lebelfor="Gender">Gender</lebel>
+                <div>
+                  <label for="male"><input type="radio" name="Gender" id="male">Male</label>
+                  <label for="female"><input type="radio" name="Gender" id="female">female</label>
+                  <label for="others"><input type="radio" name="Gender" id="others">others</label>
+                </div>
+              </div>
+              <div class="form-group">
+                <lebelfor="Email">Email</lebel>
+                <input type="text" class="form-control" id="Email">
+              </div>
+              <div class="form-group">
+                <lebelfor="Address">ADDRESS</lebel>
+                <input type="placeholder" class="form-control" id="address">
+              </div>
+              <div class="form-group">
+                <lebelfor="DOB">D.O.B</lebel>
+                <input type="datetime-local" class="form-control" id="DOP">
+              </div>
+              <div class="form-group">
+                <lebel for="Contact">Contact No</lebel>
+                <input type="text/Number" class="form-control" id="Contact">
+              </div>
+              <div class="form-group">
+                <lebelfor="EducationDetails">Qualifications</lebel>
+                <select class="form-select" aria-label="Default select example">
+                  <option selected>select your Qualifications</option>
+                  <option value="1">SSC</option>
+                  <option value="2">INTER</option>
+                  <option value="3">ITI</option>
+                  <option value="3">B.TECH/UG</option>
+                  <option value="3">PG/M.TECH</option>
+                </select>
+              </div>
+              <div class="form-group">
+                <lebel for="FILE">AADHAR</lebel>
+                <input type="file" class="form-control" id="FILE">
+              </div>
+              <div class="form-group">
+                <lebel for="PHOTO">PHOTO</lebel>
+                <input type="file" class="form-control" id="PHOTO">
+              </div>
+              <div class="form-group">
+                <lebel for="FILE">SIGNATURE</lebel>
+                <input type="file" class="form-control" id="FILE">
+              </div class="button-md-3">
+              <button>EDIT</button>
+              <button>RESET</button>
+              <button>SUBMIT</button>
+            </form>
+          </div>
+          <div class="panel-footer text-center ">
+            <small>&copy.my wedsite.ksk</small>
+          </div>
+        </div>
+      </div>
+      
+    </div>
+</body>
+</html>

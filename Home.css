@@ -1,0 +1,70 @@
+.myNav{
+    background-color: rgb(181, 237, 51);
+    text-align:left;
+
+}
+.home{
+    text-align: center;
+    background-color: rgb(240, 42, 174);
+    font-family: 'Times New Roman', Times, serif;
+}
+.login{
+    text-align: center;
+    background-color: rgb(32, 225, 36);
+    font-family: 'Times New Roman', Times, serif;
+}
+.register{
+    text-align: center;
+    background-color: rgb(7, 155, 209);
+    font-family: 'Times New Roman', Times, serif;
+}
+.a{
+    text-align:center;
+    text-transform: uppercase;
+    float: left;
+}
+.navbar-brand{
+    color: rgb(238, 15, 149);
+    text-transform: uppercase;
+    text-decoration: solid;
+    size-adjust:100px;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: xx-large;
+    font-weight: 100px;
+
+}
+.navbar-nav{
+    padding-right: 20%;
+    font-size: x-large;
+    font-family: 'Times New Roman', Times, serif;
+    color: rgb(21, 202, 72);
+    position: center;
+    
+}
+.nav-item a {
+    display: block;
+    color: rgb(50, 198, 60);
+}
+.nav-item a:hover {
+    background-color: rgb(186, 238, 54);
+}
+.container{
+    padding:left;
+    margin: left;
+}
+.button{
+    margin:right;
+    padding: 20%;
+}
+#boton{
+margin-top: 10%;
+border: radius 5in;
+margin-left: 30%;
+}
+.card {
+background-color: bisque;
+    
+}
+.btn btn-primary{
+    margin: 50%;
+}
